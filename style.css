@@ -1,0 +1,130 @@
+
+.mainBg{
+    background-color:  #f9f9ff;
+}
+body{
+    overflow-x: hidden;
+}
+/* nav-menu */
+.jon-menu{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+}
+.jon-a {
+    font-size: 24px;
+    font-weight: 600;
+}
+.jon-a span {
+    color: rgb(49, 114, 199) !important;
+    margin-right: 4px;
+}
+.a1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+/*ABOUT  */
+.content-about {
+    margin-top: 0px;
+}
+.content-about h1{
+    font-weight: 400;
+    color: #000000c4;
+}
+.content-about a{
+    font-weight: 700;
+    color: #fff;
+    transition: .5s;
+}
+.content-about a:hover{
+    color: rgb(10, 143, 231);
+    background-color: rgb(190, 202, 14);
+}
+/* about2 */
+.img-div{
+    max-width: 85%;
+}
+/* NUMBER */
+.number-counter{
+    background-color:#8490ff;
+}
+.number-counter-item p{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/*  */
+.div1D {
+    width: 70px;
+    height: 70px;
+    background-color: #b3b3b61a;
+    margin: auto;
+}
+.botton a{
+    font-weight: 700;
+    box-shadow: 0px 0px 20px #7676763f;
+}
+.botton a:hover{
+    color: #fff;
+}
+/* TEAM */
+.team-item img {
+    width: 80px;
+    margin-top: -42px;
+    margin-left: 21px;
+    margin-bottom: 6px;
+    box-shadow: 0px 0px 11px 0px #777;
+}
+.team-item a{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(29, 28, 28, 0.74);
+}
+.team-item a:hover{
+    color: #fff;
+    background:rgba(29, 28, 28, 0.74) ;
+    box-shadow: 0px 0px 15px #6782f8 !important;
+    border: 1px solid rgba(29, 28, 28, 0.329);
+    
+}
+.my-card{
+    padding-bottom: 25px;
+    border: none;
+    box-shadow: 0px 0px 15px #7676763b;
+}
+/* contact */
+.fr1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+/* FOOTER */
+footer{
+    background-color: #04091e;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media all and (max-width:992px) {
+    body{
+        
+        overflow-x: hidden;
+    }
+    .about{
+        max-width: 100%;
+        width: 100%;
+    }
+    .number-counter-item {
+        margin-bottom: 40px;
+    }
+    .priching-box{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .team-item {
+        margin-bottom: 104px;
+    }
+}
